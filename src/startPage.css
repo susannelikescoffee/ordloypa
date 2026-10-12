@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root { font-family: 'DM Sans', sans-serif; color: #fff5de; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100svh; margin: 0; background: #18382f; }
+button, a { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #fff5de; outline-offset: 4px; }
+#app { min-height: 100svh; }
+.start-screen { position: relative; isolation: isolate; display: grid; grid-template-rows: auto 1fr; min-height: 100svh; padding: 20px clamp(16px, 5vw, 56px) 28px; background: #18382f url('./assets/start-landscape.svg') center 54% / cover no-repeat fixed; }
+.start-screen::before { position: absolute; inset: 0; z-index: -1; content: ''; background: #102b2c45; }
+.start-header { display: flex; align-items: flex-start; justify-content: space-between; width: min(100%, 960px); margin: 0 auto; }
+.start-nav { display: grid; justify-items: end; gap: 7px; margin-top: 7px; }
+.start-brand { text-shadow: 0 2px 14px #102b2c90; }
+.start-eyebrow { font-size: 11px; font-weight: 700; }
+.start-brand h1 { margin: 0; font: 700 36px 'Alegreya', serif; }
+.start-world { margin-top: 12px; color: #f4d58c; font: 600 15px 'Alegreya', serif; text-shadow: 0 2px 12px #102b2c; }
+.start-archive-link { color: #fff5de; font-size: 12px; text-decoration-color: #f4d58c99; text-underline-offset: 4px; text-shadow: 0 2px 12px #102b2c; }
+.start-archive-link:hover { color: #f4d58c; }
+.start-main { --avatar-choice-height: 76px; display: grid; grid-template-columns: minmax(132px, 188px) minmax(0, 1fr); align-items: start; column-gap: clamp(18px, 3vw, 44px); width: min(100%, 1100px); margin: 0 auto; padding: 16px 0 26px; }
+.start-controls { grid-column: 1; display: flex; flex-direction: column; align-items: stretch; align-self: start; margin-top: calc(var(--avatar-choice-height) + 4px); }
+.start-instruction { align-self: center; margin: 0 0 4px; color: #fff5de; font-size: 14px; font-weight: 600; text-shadow: 0 2px 12px #102b2c; }
+.start-avatar-choices { display: flex; flex-direction: column; gap: 12px; width: 100%; }
+.start-avatar-choice { display: flex; align-items: center; justify-content: flex-start; gap: 11px; min-width: 0; min-height: var(--avatar-choice-height); padding: 8px 10px; border: 1px solid #fff5de55; border-radius: 7px; background: #18382fba; color: #fff5de; cursor: pointer; backdrop-filter: blur(8px); transition: border-color .18s, background-color .18s, transform .18s; }
+.start-avatar-choice:hover { transform: translateX(3px); border-color: #f4d58c; }
+.start-avatar-choice[aria-pressed='true'] { border: 2px solid #f4d58c; background: #385b4fe8; color: #fff5de; }
+.start-avatar-choice img { flex: 0 0 52px; width: 52px; height: 52px; border-radius: 50%; object-fit: cover; }
+.start-avatar-choice img[data-avatar-id='wizard'] { object-position: center 5%; }
+.start-avatar-choice img[data-avatar-id='dragon'] { object-position: center 10%; }
+.start-avatar-choice img[data-avatar-id='cat'] { object-position: center 20%; }
+.start-avatar-choice span { min-width: 0; max-width: 100%; overflow-wrap: anywhere; font-size: 12px; font-weight: 600; text-align: left; }
+.start-avatar-stage { grid-column: 2; grid-row: 1; display: grid; place-items: center; width: 100%; height: clamp(480px, 68svh, 660px); min-width: 0; margin: 0; }
+.start-avatar-image { display: block; width: auto; max-width: min(54vw, 420px); height: clamp(480px, 68svh, 660px); object-fit: contain; filter: drop-shadow(0 14px 18px #0b1c2c88); mask-image: radial-gradient(ellipse var(--avatar-mask-width, 84%) var(--avatar-mask-height, 72%) at 50% var(--avatar-mask-y, 47%), #000 46%, rgb(0 0 0 / .9) 64%, transparent 100%), linear-gradient(to bottom, transparent 0%, #000 var(--avatar-top-solid, 10%), #000 var(--avatar-bottom-solid, 88%), transparent var(--avatar-bottom-clear, 100%), transparent 100%), linear-gradient(to right, transparent 0%, #000 var(--avatar-side-solid, 12%), #000 calc(100% - var(--avatar-side-solid, 12%)), transparent 100%); mask-composite: intersect, intersect; -webkit-mask-image: radial-gradient(ellipse var(--avatar-mask-width, 84%) var(--avatar-mask-height, 72%) at 50% var(--avatar-mask-y, 47%), #000 46%, rgb(0 0 0 / .9) 64%, transparent 100%), linear-gradient(to bottom, transparent 0%, #000 var(--avatar-top-solid, 10%), #000 var(--avatar-bottom-solid, 88%), transparent var(--avatar-bottom-clear, 100%), transparent 100%), linear-gradient(to right, transparent 0%, #000 var(--avatar-side-solid, 12%), #000 calc(100% - var(--avatar-side-solid, 12%)), transparent 100%); -webkit-mask-composite: source-in, source-in; transform-origin: 50% 88%; animation: companion-idle 5s ease-in-out infinite; }
+.start-avatar-stage[data-avatar='cat'] .start-avatar-image { --avatar-mask-width: 74%; --avatar-mask-height: 65%; --avatar-mask-y: 46%; --avatar-top-solid: 14%; --avatar-bottom-solid: 66%; --avatar-bottom-clear: 86%; --avatar-side-solid: 22%; }
+.start-avatar-stage[data-avatar='dragon'] .start-avatar-image { --avatar-mask-width: 90%; --avatar-mask-height: 69%; --avatar-mask-y: 47%; --avatar-top-solid: 14%; --avatar-bottom-solid: 63%; --avatar-bottom-clear: 80%; --avatar-side-solid: 15%; }
+.start-avatar-stage[data-avatar='wizard'] .start-avatar-image { --avatar-mask-width: 78%; --avatar-mask-height: 84%; --avatar-mask-y: 49%; --avatar-top-solid: 8%; --avatar-bottom-solid: 92%; --avatar-bottom-clear: 100%; --avatar-side-solid: 18%; }
+.start-game-button { align-self: center; display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-width: 194px; min-height: 56px; margin-top: 42px; padding: 12px 24px; border: 2px solid #f4d58c; border-radius: 999px; background: #e9bb5b; color: #263238; box-shadow: 0 8px 22px #102b2c70; font-size: 16px; font-weight: 700; text-decoration: none; transition: transform .18s, background-color .18s, box-shadow .18s; }
+.start-game-button svg { width: 21px; height: 21px; stroke-width: 2.5; transition: transform .18s; }
+.start-game-button:hover { transform: translateY(-2px); background: #f4d58c; box-shadow: 0 11px 26px #102b2c80; }
+.start-game-button:hover svg { transform: translateX(3px); }
+@keyframes companion-idle { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-5px) rotate(.8deg); } }
+@media (max-width: 600px) {
+  .start-screen { padding: 16px 16px 24px; background-attachment: scroll; background-position: 50% 52%; }
+  .start-brand h1 { font-size: 32px; }
+  .start-world { margin-top: 0; font-size: 13px; }
+  .start-nav { gap: 5px; margin-top: 4px; }
+  .start-archive-link { font-size: 11px; }
+  .start-main { grid-template-columns: 92px minmax(0, 1fr); column-gap: 10px; padding: 12px 0 20px; }
+  .start-controls { width: 100%; }
+  .start-avatar-choices { gap: 8px; }
+  .start-avatar-choice { flex-direction: column; justify-content: center; gap: 3px; min-height: 76px; padding: 4px 2px; }
+  .start-avatar-choice img { flex-basis: 48px; width: 48px; height: 48px; }
+  .start-avatar-choice span { font-size: 11px; text-align: center; }
+  .start-avatar-stage { height: clamp(360px, 58svh, 500px); }
+  .start-avatar-image { max-width: min(68vw, 360px); height: clamp(360px, 58svh, 500px); }
+  .start-game-button { align-self: flex-start; width: 100%; min-width: 0; min-height: 54px; gap: 6px; padding: 10px 4px; font-size: 13px; }
+  .start-game-button svg { width: 18px; height: 18px; }
+}
+  @media (min-width: 900px) {
+    .start-main { grid-template-columns: minmax(180px, 220px) minmax(0, 1fr); width: min(100%, 1100px); }
+    .start-avatar-stage { height: clamp(960px, 118svh, 1220px); }
+    .start-avatar-image { max-width: min(56vw, 620px); height: clamp(960px, 118svh, 1220px); }
+    .start-game-button { position: sticky; bottom: 20px; z-index: 2; }
+  }
+@media (max-height: 640px) {
+  .start-screen { padding-top: 12px; padding-bottom: 14px; }
+  .start-main { --avatar-choice-height: 66px; padding-top: 6px; padding-bottom: 8px; }
+  .start-avatar-stage { height: 340px; }
+  .start-avatar-image { max-width: min(54vw, 260px); height: 340px; }
+  .start-avatar-choice { min-height: 66px; }
+  .start-avatar-choice img { flex-basis: 42px; width: 42px; height: 42px; }
+}
+@media (min-width: 900px) and (max-height: 640px) {
+  .start-avatar-stage { height: clamp(960px, 160svh, 1150px); }
+  .start-avatar-image { max-width: min(56vw, 620px); height: clamp(960px, 160svh, 1150px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; }
+}

@@ -1,0 +1,2448 @@
+{
+  "version": 1,
+  "wordsPerTask": 5,
+  "levels": [
+    {
+      "band": 1,
+      "name": "Lysning",
+      "seedLength": 5,
+      "tasks": [
+        {
+          "id": "82214ac4d5",
+          "puzzle": {
+            "letters": "glass",
+            "placements": [
+              {
+                "word": "glass",
+                "row": 1,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "gass",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "salg",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "slag",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "lag",
+                "direction": "across",
+                "row": 2,
+                "column": 4
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "011c87ec17",
+          "puzzle": {
+            "letters": "firma",
+            "placements": [
+              {
+                "word": "firma",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "fram",
+                "direction": "down",
+                "row": 2,
+                "column": 0
+              },
+              {
+                "word": "ram",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "far",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "fri",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              }
+            ],
+            "rows": 6,
+            "columns": 5
+          }
+        },
+        {
+          "id": "5450758dfa",
+          "puzzle": {
+            "letters": "brott",
+            "placements": [
+              {
+                "word": "brott",
+                "row": 1,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "bort",
+                "direction": "down",
+                "row": 1,
+                "column": 2
+              },
+              {
+                "word": "rot",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "tro",
+                "direction": "down",
+                "row": 1,
+                "column": 6
+              },
+              {
+                "word": "bor",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "eb4ecd47f5",
+          "puzzle": {
+            "letters": "stykk",
+            "placements": [
+              {
+                "word": "stykk",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "kyst",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "tysk",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "sky",
+                "direction": "down",
+                "row": 1,
+                "column": 6
+              },
+              {
+                "word": "syk",
+                "direction": "across",
+                "row": 0,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "dfc6331ee1",
+          "puzzle": {
+            "letters": "bilde",
+            "placements": [
+              {
+                "word": "bilde",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "lei",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              },
+              {
+                "word": "ide",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "bil",
+                "direction": "down",
+                "row": 2,
+                "column": 0
+              },
+              {
+                "word": "ild",
+                "direction": "across",
+                "row": 0,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 5
+          }
+        },
+        {
+          "id": "61030e459a",
+          "puzzle": {
+            "letters": "kveld",
+            "placements": [
+              {
+                "word": "kveld",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "elv",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              },
+              {
+                "word": "vel",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "del",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "ved",
+                "direction": "across",
+                "row": 0,
+                "column": 3
+              }
+            ],
+            "rows": 5,
+            "columns": 6
+          }
+        },
+        {
+          "id": "298022169e",
+          "puzzle": {
+            "letters": "kraft",
+            "placements": [
+              {
+                "word": "kraft",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "frakt",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "fart",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "kart",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "tak",
+                "direction": "across",
+                "row": 5,
+                "column": 2
+              }
+            ],
+            "rows": 6,
+            "columns": 5
+          }
+        },
+        {
+          "id": "53ae1435db",
+          "puzzle": {
+            "letters": "skatt",
+            "placements": [
+              {
+                "word": "skatt",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "takst",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              },
+              {
+                "word": "takt",
+                "direction": "down",
+                "row": 2,
+                "column": 3
+              },
+              {
+                "word": "satt",
+                "direction": "down",
+                "row": 1,
+                "column": 5
+              },
+              {
+                "word": "stat",
+                "direction": "across",
+                "row": 0,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 6
+          }
+        },
+        {
+          "id": "03e58dabc0",
+          "puzzle": {
+            "letters": "stopp",
+            "placements": [
+              {
+                "word": "stopp",
+                "row": 2,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "topp",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "sopp",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "post",
+                "direction": "across",
+                "row": 5,
+                "column": 2
+              },
+              {
+                "word": "opp",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 6
+          }
+        },
+        {
+          "id": "dd4b5d359a",
+          "puzzle": {
+            "letters": "natur",
+            "placements": [
+              {
+                "word": "natur",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "tru",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "tur",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "art",
+                "direction": "across",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "urt",
+                "direction": "across",
+                "row": 4,
+                "column": 2
+              }
+            ],
+            "rows": 5,
+            "columns": 5
+          }
+        }
+      ]
+    },
+    {
+      "band": 2,
+      "name": "Skogsti",
+      "seedLength": 5,
+      "tasks": [
+        {
+          "id": "e033026d2a",
+          "puzzle": {
+            "letters": "krets",
+            "placements": [
+              {
+                "word": "krets",
+                "row": 4,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "strek",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "sterk",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "rest",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "stek",
+                "direction": "across",
+                "row": 0,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 5
+          }
+        },
+        {
+          "id": "7a8c804f71",
+          "puzzle": {
+            "letters": "kvilt",
+            "placements": [
+              {
+                "word": "kvilt",
+                "row": 1,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "kvit",
+                "direction": "down",
+                "row": 1,
+                "column": 2
+              },
+              {
+                "word": "vilt",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "liv",
+                "direction": "across",
+                "row": 2,
+                "column": 0
+              },
+              {
+                "word": "lik",
+                "direction": "down",
+                "row": 2,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "47e31ac7a8",
+          "puzzle": {
+            "letters": "brudd",
+            "placements": [
+              {
+                "word": "brudd",
+                "row": 3,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "bud",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "bur",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "bru",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "brud",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "37ff03e3e1",
+          "puzzle": {
+            "letters": "skarp",
+            "placements": [
+              {
+                "word": "skarp",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "park",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "skap",
+                "direction": "down",
+                "row": 3,
+                "column": 1
+              },
+              {
+                "word": "kar",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "ras",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "871152c914",
+          "puzzle": {
+            "letters": "sving",
+            "placements": [
+              {
+                "word": "sving",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "vis",
+                "direction": "down",
+                "row": 1,
+                "column": 1
+              },
+              {
+                "word": "vin",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "svin",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "ving",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 6
+          }
+        },
+        {
+          "id": "4da79a50e6",
+          "puzzle": {
+            "letters": "vinge",
+            "placements": [
+              {
+                "word": "vinge",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "vei",
+                "direction": "down",
+                "row": 2,
+                "column": 0
+              },
+              {
+                "word": "veg",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "eng",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "gen",
+                "direction": "across",
+                "row": 4,
+                "column": 4
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "52efe0e22c",
+          "puzzle": {
+            "letters": "strøk",
+            "placements": [
+              {
+                "word": "strøk",
+                "row": 2,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "øst",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "sør",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "røst",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              },
+              {
+                "word": "øks",
+                "direction": "down",
+                "row": 2,
+                "column": 6
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "1123a0839a",
+          "puzzle": {
+            "letters": "dråpe",
+            "placements": [
+              {
+                "word": "dråpe",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "råd",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "åre",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "red",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "dåp",
+                "direction": "across",
+                "row": 3,
+                "column": 4
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "a1e04020ee",
+          "puzzle": {
+            "letters": "fiber",
+            "placements": [
+              {
+                "word": "fiber",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "fire",
+                "direction": "down",
+                "row": 3,
+                "column": 0
+              },
+              {
+                "word": "brei",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              },
+              {
+                "word": "bre",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "bie",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              }
+            ],
+            "rows": 7,
+            "columns": 5
+          }
+        },
+        {
+          "id": "e41160d864",
+          "puzzle": {
+            "letters": "tomat",
+            "placements": [
+              {
+                "word": "tomat",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "mota",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "atom",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "tomt",
+                "direction": "down",
+                "row": 3,
+                "column": 4
+              },
+              {
+                "word": "mat",
+                "direction": "across",
+                "row": 1,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 5
+          }
+        }
+      ]
+    },
+    {
+      "band": 3,
+      "name": "Ungskog",
+      "seedLength": 5,
+      "tasks": [
+        {
+          "id": "80ade53671",
+          "puzzle": {
+            "letters": "netto",
+            "placements": [
+              {
+                "word": "netto",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "note",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "nett",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "tone",
+                "direction": "down",
+                "row": 1,
+                "column": 6
+              },
+              {
+                "word": "not",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "f49c52babc",
+          "puzzle": {
+            "letters": "lokal",
+            "placements": [
+              {
+                "word": "lokal",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "koll",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "kall",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "klo",
+                "direction": "down",
+                "row": 1,
+                "column": 6
+              },
+              {
+                "word": "all",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "d1eb8a1290",
+          "puzzle": {
+            "letters": "rimer",
+            "placements": [
+              {
+                "word": "rimer",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "reir",
+                "direction": "down",
+                "row": 3,
+                "column": 0
+              },
+              {
+                "word": "reim",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "rier",
+                "direction": "down",
+                "row": 3,
+                "column": 4
+              },
+              {
+                "word": "rem",
+                "direction": "across",
+                "row": 6,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 5
+          }
+        },
+        {
+          "id": "dcb74f4157",
+          "puzzle": {
+            "letters": "never",
+            "placements": [
+              {
+                "word": "never",
+                "row": 4,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "nerve",
+                "direction": "down",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "evne",
+                "direction": "down",
+                "row": 1,
+                "column": 1
+              },
+              {
+                "word": "vern",
+                "direction": "down",
+                "row": 4,
+                "column": 2
+              },
+              {
+                "word": "revne",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              }
+            ],
+            "rows": 9,
+            "columns": 5
+          }
+        },
+        {
+          "id": "b29b5c9ba6",
+          "puzzle": {
+            "letters": "bleik",
+            "placements": [
+              {
+                "word": "bleik",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "like",
+                "direction": "down",
+                "row": 2,
+                "column": 3
+              },
+              {
+                "word": "leik",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "blek",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "kile",
+                "direction": "across",
+                "row": 0,
+                "column": 3
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "7a27aa3964",
+          "puzzle": {
+            "letters": "fåret",
+            "placements": [
+              {
+                "word": "fåret",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "året",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "råte",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "tåre",
+                "direction": "down",
+                "row": 3,
+                "column": 5
+              },
+              {
+                "word": "ert",
+                "direction": "across",
+                "row": 6,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "f7783de5af",
+          "puzzle": {
+            "letters": "vorte",
+            "placements": [
+              {
+                "word": "vorte",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "over",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "torv",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "vert",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "rev",
+                "direction": "across",
+                "row": 3,
+                "column": 4
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        },
+        {
+          "id": "ec8cf3f87f",
+          "puzzle": {
+            "letters": "lekse",
+            "placements": [
+              {
+                "word": "lekse",
+                "row": 2,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "sele",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "leke",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "eske",
+                "direction": "down",
+                "row": 2,
+                "column": 7
+              },
+              {
+                "word": "lese",
+                "direction": "across",
+                "row": 1,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 8
+          }
+        },
+        {
+          "id": "b6d7294f31",
+          "puzzle": {
+            "letters": "garde",
+            "placements": [
+              {
+                "word": "garde",
+                "row": 4,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "gard",
+                "direction": "down",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "grad",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "dag",
+                "direction": "across",
+                "row": 6,
+                "column": 2
+              },
+              {
+                "word": "drage",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              }
+            ],
+            "rows": 8,
+            "columns": 5
+          }
+        },
+        {
+          "id": "bc327a5a94",
+          "puzzle": {
+            "letters": "treet",
+            "placements": [
+              {
+                "word": "treet",
+                "row": 1,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "etter",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "rette",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "eter",
+                "direction": "down",
+                "row": 0,
+                "column": 6
+              },
+              {
+                "word": "tet",
+                "direction": "across",
+                "row": 2,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 7
+          }
+        }
+      ]
+    },
+    {
+      "band": 4,
+      "name": "Kratt",
+      "seedLength": 6,
+      "tasks": [
+        {
+          "id": "d704af1048",
+          "puzzle": {
+            "letters": "rukket",
+            "placements": [
+              {
+                "word": "rukket",
+                "row": 3,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "trekk",
+                "direction": "down",
+                "row": 2,
+                "column": 3
+              },
+              {
+                "word": "true",
+                "direction": "down",
+                "row": 0,
+                "column": 7
+              },
+              {
+                "word": "rute",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "ute",
+                "direction": "across",
+                "row": 0,
+                "column": 6
+              }
+            ],
+            "rows": 7,
+            "columns": 9
+          }
+        },
+        {
+          "id": "24a74f049e",
+          "puzzle": {
+            "letters": "magnet",
+            "placements": [
+              {
+                "word": "magnet",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "tang",
+                "direction": "down",
+                "row": 2,
+                "column": 1
+              },
+              {
+                "word": "gate",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "tegn",
+                "direction": "down",
+                "row": 3,
+                "column": 5
+              },
+              {
+                "word": "agent",
+                "direction": "across",
+                "row": 0,
+                "column": 3
+              }
+            ],
+            "rows": 7,
+            "columns": 8
+          }
+        },
+        {
+          "id": "e4efd1f4ac",
+          "puzzle": {
+            "letters": "moment",
+            "placements": [
+              {
+                "word": "moment",
+                "row": 2,
+                "column": 4,
+                "direction": "across"
+              },
+              {
+                "word": "mote",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "omen",
+                "direction": "down",
+                "row": 1,
+                "column": 6
+              },
+              {
+                "word": "mot",
+                "direction": "down",
+                "row": 0,
+                "column": 9
+              },
+              {
+                "word": "tomme",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 10
+          }
+        },
+        {
+          "id": "14671d2f23",
+          "puzzle": {
+            "letters": "fordel",
+            "placements": [
+              {
+                "word": "fordel",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "fler",
+                "direction": "down",
+                "row": 3,
+                "column": 1
+              },
+              {
+                "word": "for",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "ord",
+                "direction": "across",
+                "row": 6,
+                "column": 0
+              },
+              {
+                "word": "ofre",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              }
+            ],
+            "rows": 7,
+            "columns": 7
+          }
+        },
+        {
+          "id": "b1c0708b27",
+          "puzzle": {
+            "letters": "spikre",
+            "placements": [
+              {
+                "word": "spikre",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "krise",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "pike",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "reis",
+                "direction": "down",
+                "row": 3,
+                "column": 4
+              },
+              {
+                "word": "rike",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "62f4b25768",
+          "puzzle": {
+            "letters": "lisens",
+            "placements": [
+              {
+                "word": "lisens",
+                "row": 3,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "seil",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "nisse",
+                "direction": "down",
+                "row": 1,
+                "column": 5
+              },
+              {
+                "word": "snile",
+                "direction": "down",
+                "row": 2,
+                "column": 7
+              },
+              {
+                "word": "linse",
+                "direction": "across",
+                "row": 0,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 9
+          }
+        },
+        {
+          "id": "70193dcfb0",
+          "puzzle": {
+            "letters": "husmor",
+            "placements": [
+              {
+                "word": "husmor",
+                "row": 2,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "mur",
+                "direction": "down",
+                "row": 1,
+                "column": 1
+              },
+              {
+                "word": "mos",
+                "direction": "down",
+                "row": 2,
+                "column": 3
+              },
+              {
+                "word": "sur",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "uro",
+                "direction": "across",
+                "row": 1,
+                "column": 5
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "e5ffe745e9",
+          "puzzle": {
+            "letters": "tretti",
+            "placements": [
+              {
+                "word": "tretti",
+                "row": 3,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "trett",
+                "direction": "down",
+                "row": 3,
+                "column": 1
+              },
+              {
+                "word": "tier",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "ritt",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "tett",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 8,
+            "columns": 7
+          }
+        },
+        {
+          "id": "4b3fedc8d8",
+          "puzzle": {
+            "letters": "vinkel",
+            "placements": [
+              {
+                "word": "vinkel",
+                "row": 4,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "kniv",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "kilen",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "live",
+                "direction": "down",
+                "row": 1,
+                "column": 4
+              },
+              {
+                "word": "lenk",
+                "direction": "down",
+                "row": 4,
+                "column": 5
+              }
+            ],
+            "rows": 8,
+            "columns": 6
+          }
+        },
+        {
+          "id": "1c58464200",
+          "puzzle": {
+            "letters": "kalkun",
+            "placements": [
+              {
+                "word": "kalkun",
+                "row": 0,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "kul",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "kak",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "lakk",
+                "direction": "across",
+                "row": 2,
+                "column": 0
+              },
+              {
+                "word": "kalk",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              }
+            ],
+            "rows": 6,
+            "columns": 6
+          }
+        }
+      ]
+    },
+    {
+      "band": 5,
+      "name": "Villnis",
+      "seedLength": 6,
+      "tasks": [
+        {
+          "id": "b3bc44acfa",
+          "puzzle": {
+            "letters": "flamme",
+            "placements": [
+              {
+                "word": "flamme",
+                "row": 4,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "fem",
+                "direction": "down",
+                "row": 4,
+                "column": 3
+              },
+              {
+                "word": "lemma",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "lamme",
+                "direction": "down",
+                "row": 2,
+                "column": 7
+              },
+              {
+                "word": "malm",
+                "direction": "across",
+                "row": 6,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 9
+          }
+        },
+        {
+          "id": "86d700221a",
+          "puzzle": {
+            "letters": "honnør",
+            "placements": [
+              {
+                "word": "honnør",
+                "row": 2,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "horn",
+                "direction": "down",
+                "row": 2,
+                "column": 1
+              },
+              {
+                "word": "ørn",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              },
+              {
+                "word": "onn",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              },
+              {
+                "word": "hør",
+                "direction": "down",
+                "row": 1,
+                "column": 5
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "7217d819ae",
+          "puzzle": {
+            "letters": "angora",
+            "placements": [
+              {
+                "word": "angora",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "organ",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "garn",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "gran",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "rang",
+                "direction": "across",
+                "row": 1,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "32e911be39",
+          "puzzle": {
+            "letters": "visitt",
+            "placements": [
+              {
+                "word": "visitt",
+                "row": 3,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "tvist",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "vits",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "svi",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              },
+              {
+                "word": "siv",
+                "direction": "across",
+                "row": 5,
+                "column": 2
+              }
+            ],
+            "rows": 7,
+            "columns": 8
+          }
+        },
+        {
+          "id": "fa09f448e5",
+          "puzzle": {
+            "letters": "utgift",
+            "placements": [
+              {
+                "word": "utgift",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "gutt",
+                "direction": "down",
+                "row": 1,
+                "column": 2
+              },
+              {
+                "word": "gift",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "gitt",
+                "direction": "down",
+                "row": 0,
+                "column": 7
+              },
+              {
+                "word": "tut",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 8
+          }
+        },
+        {
+          "id": "0fa06f2b77",
+          "puzzle": {
+            "letters": "omgang",
+            "placements": [
+              {
+                "word": "omgang",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "gang",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "gagn",
+                "direction": "down",
+                "row": 0,
+                "column": 4
+              },
+              {
+                "word": "gan",
+                "direction": "down",
+                "row": 3,
+                "column": 5
+              },
+              {
+                "word": "moa",
+                "direction": "down",
+                "row": 2,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "4a775f0448",
+          "puzzle": {
+            "letters": "leting",
+            "placements": [
+              {
+                "word": "leting",
+                "row": 2,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "geit",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "til",
+                "direction": "down",
+                "row": 1,
+                "column": 5
+              },
+              {
+                "word": "ligne",
+                "direction": "down",
+                "row": 0,
+                "column": 7
+              },
+              {
+                "word": "leit",
+                "direction": "across",
+                "row": 4,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "753b6824ce",
+          "puzzle": {
+            "letters": "region",
+            "placements": [
+              {
+                "word": "region",
+                "row": 4,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "ringe",
+                "direction": "down",
+                "row": 4,
+                "column": 3
+              },
+              {
+                "word": "regn",
+                "direction": "down",
+                "row": 2,
+                "column": 5
+              },
+              {
+                "word": "grein",
+                "direction": "down",
+                "row": 0,
+                "column": 8
+              },
+              {
+                "word": "grei",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 9,
+            "columns": 9
+          }
+        },
+        {
+          "id": "f067a732a8",
+          "puzzle": {
+            "letters": "storby",
+            "placements": [
+              {
+                "word": "storby",
+                "row": 3,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "bryst",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "styr",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "sort",
+                "direction": "across",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "tyr",
+                "direction": "down",
+                "row": 2,
+                "column": 7
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "8821f9b477",
+          "puzzle": {
+            "letters": "radius",
+            "placements": [
+              {
+                "word": "radius",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "sida",
+                "direction": "down",
+                "row": 0,
+                "column": 1
+              },
+              {
+                "word": "dras",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "ris",
+                "direction": "down",
+                "row": 3,
+                "column": 0
+              },
+              {
+                "word": "dia",
+                "direction": "across",
+                "row": 1,
+                "column": 0
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        }
+      ]
+    },
+    {
+      "band": 6,
+      "name": "Underskog",
+      "seedLength": 6,
+      "tasks": [
+        {
+          "id": "276bc38350",
+          "puzzle": {
+            "letters": "kodeks",
+            "placements": [
+              {
+                "word": "kodeks",
+                "row": 2,
+                "column": 4,
+                "direction": "across"
+              },
+              {
+                "word": "kode",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "dekk",
+                "direction": "down",
+                "row": 2,
+                "column": 6
+              },
+              {
+                "word": "sekk",
+                "direction": "down",
+                "row": 0,
+                "column": 8
+              },
+              {
+                "word": "dokke",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 10
+          }
+        },
+        {
+          "id": "1112c977b5",
+          "puzzle": {
+            "letters": "kloven",
+            "placements": [
+              {
+                "word": "kloven",
+                "row": 1,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "lov",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "ovn",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "onkel",
+                "direction": "down",
+                "row": 0,
+                "column": 7
+              },
+              {
+                "word": "klovn",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "e872b5e2e1",
+          "puzzle": {
+            "letters": "globus",
+            "placements": [
+              {
+                "word": "globus",
+                "row": 1,
+                "column": 1,
+                "direction": "across"
+              },
+              {
+                "word": "lus",
+                "direction": "down",
+                "row": 1,
+                "column": 2
+              },
+              {
+                "word": "gul",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "bus",
+                "direction": "across",
+                "row": 3,
+                "column": 0
+              },
+              {
+                "word": "bol",
+                "direction": "down",
+                "row": 3,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 7
+          }
+        },
+        {
+          "id": "4806fb70b6",
+          "puzzle": {
+            "letters": "råolje",
+            "placements": [
+              {
+                "word": "råolje",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "olje",
+                "direction": "down",
+                "row": 3,
+                "column": 2
+              },
+              {
+                "word": "ljore",
+                "direction": "down",
+                "row": 0,
+                "column": 0
+              },
+              {
+                "word": "jåle",
+                "direction": "down",
+                "row": 3,
+                "column": 4
+              },
+              {
+                "word": "reol",
+                "direction": "down",
+                "row": 0,
+                "column": 3
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "cfb8b9ec68",
+          "puzzle": {
+            "letters": "grotte",
+            "placements": [
+              {
+                "word": "grotte",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "tog",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "goter",
+                "direction": "down",
+                "row": 2,
+                "column": 2
+              },
+              {
+                "word": "tort",
+                "direction": "down",
+                "row": 3,
+                "column": 4
+              },
+              {
+                "word": "otre",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              }
+            ],
+            "rows": 7,
+            "columns": 6
+          }
+        },
+        {
+          "id": "96b4c86863",
+          "puzzle": {
+            "letters": "trolig",
+            "placements": [
+              {
+                "word": "trolig",
+                "row": 1,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "trio",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "torg",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              },
+              {
+                "word": "glor",
+                "direction": "down",
+                "row": 1,
+                "column": 5
+              },
+              {
+                "word": "lit",
+                "direction": "across",
+                "row": 2,
+                "column": 5
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "7593cd6008",
+          "puzzle": {
+            "letters": "lerret",
+            "placements": [
+              {
+                "word": "lerret",
+                "row": 1,
+                "column": 3,
+                "direction": "across"
+              },
+              {
+                "word": "leter",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "treer",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "erle",
+                "direction": "down",
+                "row": 1,
+                "column": 7
+              },
+              {
+                "word": "tele",
+                "direction": "across",
+                "row": 2,
+                "column": 0
+              }
+            ],
+            "rows": 6,
+            "columns": 9
+          }
+        },
+        {
+          "id": "436fc4c81f",
+          "puzzle": {
+            "letters": "mousse",
+            "placements": [
+              {
+                "word": "mousse",
+                "row": 3,
+                "column": 0,
+                "direction": "across"
+              },
+              {
+                "word": "sumo",
+                "direction": "down",
+                "row": 1,
+                "column": 0
+              },
+              {
+                "word": "mose",
+                "direction": "down",
+                "row": 1,
+                "column": 3
+              },
+              {
+                "word": "muse",
+                "direction": "down",
+                "row": 0,
+                "column": 5
+              },
+              {
+                "word": "moe",
+                "direction": "across",
+                "row": 0,
+                "column": 5
+              }
+            ],
+            "rows": 5,
+            "columns": 8
+          }
+        },
+        {
+          "id": "71aba1b3a3",
+          "puzzle": {
+            "letters": "truing",
+            "placements": [
+              {
+                "word": "truing",
+                "row": 3,
+                "column": 2,
+                "direction": "across"
+              },
+              {
+                "word": "ruin",
+                "direction": "down",
+                "row": 3,
+                "column": 3
+              },
+              {
+                "word": "tiur",
+                "direction": "down",
+                "row": 2,
+                "column": 5
+              },
+              {
+                "word": "turn",
+                "direction": "across",
+                "row": 6,
+                "column": 0
+              },
+              {
+                "word": "grut",
+                "direction": "down",
+                "row": 0,
+                "column": 2
+              }
+            ],
+            "rows": 7,
+            "columns": 8
+          }
+        },
+        {
+          "id": "ed33d37839",
+          "puzzle": {
+            "letters": "astral",
+            "placements": [
+              {
+                "word": "astral",
+                "row": 3,
+                "column": 4,
+                "direction": "across"
+              },
+              {
+                "word": "last",
+                "direction": "down",
+                "row": 2,
+                "column": 4
+              },
+              {
+                "word": "salt",
+                "direction": "down",
+                "row": 0,
+                "column": 6
+              },
+              {
+                "word": "atlas",
+                "direction": "down",
+                "row": 3,
+                "column": 8
+              },
+              {
+                "word": "salat",
+                "direction": "across",
+                "row": 5,
+                "column": 0
+              }
+            ],
+            "rows": 8,
+            "columns": 10
+          }
+        }
+      ]
+    }
+  ]
+}

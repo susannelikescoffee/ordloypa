@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root { font-family: 'DM Sans', sans-serif; color: #fff5de; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100svh; margin: 0; background: #18382f; }
+button, a { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #fff5de; outline-offset: 4px; }
+#app { min-height: 100svh; }
+.start-screen { position: relative; isolation: isolate; display: grid; grid-template-rows: auto 1fr; min-height: 100svh; padding: 20px clamp(16px, 5vw, 56px) 28px; overflow: hidden; background: #18382f url('./assets/archive-v1/start-landscape.svg') center 54% / cover no-repeat fixed; }
+.start-screen::before { position: absolute; inset: 0; z-index: -1; content: ''; background: #102b2c45; }
+.start-header { display: flex; align-items: flex-start; justify-content: space-between; width: min(100%, 960px); margin: 0 auto; }
+.start-brand { text-shadow: 0 2px 14px #102b2c90; }
+.start-eyebrow { font-size: 11px; font-weight: 700; }
+.start-brand h1 { margin: 0; font: 700 36px 'Alegreya', serif; }
+.start-world { margin-top: 12px; color: #f4d58c; font: 600 15px 'Alegreya', serif; text-shadow: 0 2px 12px #102b2c; }
+.start-main { display: grid; justify-items: center; align-content: center; width: min(100%, 820px); margin: 0 auto; padding: 16px 0 26px; }
+.start-instruction { margin: 0 0 12px; color: #fff5de; font-size: 14px; font-weight: 600; text-shadow: 0 2px 12px #102b2c; }
+.start-avatar-choices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; width: min(100%, 390px); }
+.start-avatar-choice { display: grid; justify-items: center; align-content: center; gap: 1px; min-width: 0; min-height: 74px; padding: 4px 6px; border: 1px solid #fff5de55; border-radius: 7px; background: #18382fba; color: #fff5de; cursor: pointer; backdrop-filter: blur(8px); transition: border-color .18s, background-color .18s, transform .18s; }
+.start-avatar-choice:hover { transform: translateY(-2px); border-color: #f4d58c; }
+.start-avatar-choice[aria-pressed='true'] { border: 2px solid #f4d58c; background: #385b4fe8; color: #fff5de; }
+.start-avatar-choice img { width: 44px; height: 44px; object-fit: contain; }
+.start-avatar-choice span { max-width: 100%; overflow-wrap: anywhere; font-size: 12px; font-weight: 600; }
+.start-avatar-stage { display: grid; place-items: center; width: min(100%, 620px); height: clamp(260px, 36svh, 320px); margin: 0; }
+.start-avatar-image { display: block; width: auto; max-width: min(76vw, 320px); height: 100%; object-fit: contain; filter: drop-shadow(0 14px 18px #0b1c2c88); transform-origin: 50% 88%; animation: companion-idle 5s ease-in-out infinite; }
+.start-game-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-width: 194px; min-height: 56px; margin-top: 2px; padding: 12px 24px; border: 2px solid #f4d58c; border-radius: 7px; background: #e9bb5b; color: #263238; box-shadow: 0 8px 22px #102b2c70; font-size: 16px; font-weight: 700; text-decoration: none; transition: transform .18s, background-color .18s, box-shadow .18s; }
+.start-game-button svg { width: 21px; height: 21px; stroke-width: 2.5; transition: transform .18s; }
+.start-game-button:hover { transform: translateY(-2px); background: #f4d58c; box-shadow: 0 11px 26px #102b2c80; }
+.start-game-button:hover svg { transform: translateX(3px); }
+@keyframes companion-idle { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-5px) rotate(.8deg); } }
+@media (max-width: 600px) {
+  .start-screen { padding: 16px 16px 24px; background-attachment: scroll; background-position: 50% 52%; }
+  .start-brand h1 { font-size: 32px; }
+  .start-world { font-size: 13px; }
+  .start-main { padding: 14px 0 20px; }
+  .start-avatar-choices { gap: 7px; }
+  .start-avatar-choice { min-height: 70px; padding: 4px 2px; }
+  .start-avatar-choice img { width: 40px; height: 40px; }
+  .start-avatar-choice span { font-size: 11px; }
+  .start-avatar-stage { height: clamp(250px, 34svh, 288px); }
+  .start-avatar-image { max-width: min(78vw, 288px); }
+  .start-game-button { min-height: 54px; }
+}
+@media (max-height: 640px) {
+  .start-screen { padding-top: 12px; padding-bottom: 14px; }
+  .start-main { padding-top: 6px; padding-bottom: 8px; }
+  .start-avatar-stage { height: 230px; }
+  .start-avatar-image { max-width: min(68vw, 260px); }
+  .start-avatar-choice { min-height: 62px; }
+  .start-avatar-choice img { width: 34px; height: 34px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; }
+}

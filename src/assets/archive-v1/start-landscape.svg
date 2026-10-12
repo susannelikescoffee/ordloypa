@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="800" y1="0" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132B32"/>
+      <stop offset=".48" stop-color="#28544C"/>
+      <stop offset="1" stop-color="#D57962"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="130" y1="85" x2="1320" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70D5B0" stop-opacity="0"/>
+      <stop offset=".38" stop-color="#70D5B0" stop-opacity=".48"/>
+      <stop offset=".72" stop-color="#E3D17C" stop-opacity=".31"/>
+      <stop offset="1" stop-color="#E3D17C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="path" x1="850" y1="530" x2="800" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9BB5B" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#F4D58C" stop-opacity=".7"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+  <path fill="url(#aurora)" d="M-40 210C205 5 393 25 568 162c143 112 278 136 435 14 151-118 303-143 525-15-220-39-323 20-461 126-163 125-324 120-504-15C367 163 204 111-40 310V210Z"/>
+  <path fill="#D7F2D1" fill-opacity=".18" d="M-22 302C190 150 341 150 500 257c135 91 249 128 399 30 126-82 245-136 423-90-166-10-285 59-411 136-168 102-315 86-465-18C288 212 139 224-22 390v-88Z"/>
+  <g fill="#FFF1C4" fill-opacity=".75">
+    <circle cx="126" cy="129" r="2"/><circle cx="232" cy="74" r="1.5"/><circle cx="391" cy="184" r="2"/>
+    <circle cx="617" cy="103" r="1.5"/><circle cx="754" cy="64" r="2"/><circle cx="1005" cy="132" r="1.5"/>
+    <circle cx="1148" cy="71" r="2"/><circle cx="1373" cy="162" r="1.5"/><circle cx="1494" cy="101" r="2"/>
+    <circle cx="1430" cy="260" r="1.5"/><circle cx="277" cy="268" r="1.5"/><circle cx="910" cy="222" r="1.5"/>
+  </g>
+  <path fill="#496E67" d="m0 600 185-170 128 116 213-234 178 219 190-185 191 201 164-144 163 139 188-163v621H0V600Z"/>
+  <path fill="#789184" fill-opacity=".72" d="m314 546 212-234 116 143-126-72-78 84-49-37-75 116Zm390-15 190-185 143 150-142-72-73 48-53-35-65 94Zm354-43 164-144 109 93-114-31-70 55-38-21-51 48Z"/>
+  <path fill="#31574F" d="m0 680 171-118 171 103 184-122 181 130 164-117 205 124 151-110 208 104 165-115v441H0V680Z"/>
+  <path fill="url(#path)" stroke="#F4D58C" stroke-opacity=".22" stroke-width="14" d="M800 1000c-22-126 114-157 68-263-33-77-138-104-112-194 22-74 147-92 160-171"/>
+  <path stroke="#F5D889" stroke-opacity=".52" stroke-width="3" d="M800 1000c-22-126 114-157 68-263-33-77-138-104-112-194 22-74 147-92 160-171"/>
+  <g fill="#F5D889" fill-opacity=".76" font-family="Georgia,serif" font-size="23" font-weight="700">
+    <text x="863" y="536" transform="rotate(-13 863 536)">A</text>
+    <text x="784" y="696" transform="rotate(9 784 696)">Ø</text>
+    <text x="852" y="839" transform="rotate(-8 852 839)">Å</text>
+  </g>
+  <g fill="#18382F">
+    <path d="m-20 810 95-230 95 230h-46l74 124H-32l74-124h-62Zm184 44 74-185 75 185h-37l58 99H133l59-99h-28Zm1162-45 85-207 86 207h-40l68 116h-226l69-116h-42Zm170 58 65-162 67 162h-32l52 88h-171l52-88h-33Z"/>
+  </g>
+  <g fill="#21453C">
+    <path d="m81 967 111-269 111 269h-54l85 142H50l84-142H81Zm285 13 88-213 88 213h-42l69 114H337l70-114h-41Zm825-10 106-256 106 256h-51l80 134h-270l79-134h-50Zm259 21 78-190 79 190h-38l62 102h-205l62-102h-38Z"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "name": "susannes-ordspill",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "levels:candidates": "node scripts/build-candidates.ts",
+    "levels:build": "node scripts/build-levels.ts"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.2"
+  },
+  "dependencies": {
+    "lucide": "^1.52.0"
+  }
+}

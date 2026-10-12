@@ -1,0 +1,46 @@
+# Blokkliste – ord som aldri skal brukes i oppgavene (verken som frøord eller kryssord).
+# Ett ord per linje. Linjer som starter med # er kommentarer.
+# Dette er en START. Susanne og Nuffa eier listen og utvider den etter gjennomgang av kandidater.txt.
+# Etter endring: kjør npm run levels:candidates på nytt.
+
+# Banning og grove ord
+faen
+fan
+jævla
+helvete
+fitte
+kuk
+pikk
+dritt
+drit
+shit
+fuck
+hore
+kneppe
+knull
+runke
+rasshøl
+rasshol
+rumpe
+
+# Andre ord som ikke passer i et barnevennlig spill
+aids
+sex
+porno
+nazi
+
+# Lagt til etter Nuffas gjennomgang 2026-10-11 (fase 2)
+# Trygghet: vold/våpen, rus, alkohol, seksuelt, sensitivt
+napalm
+pistol
+anal
+vanfør
+pils
+rus
+rush
+getto
+# Krast/ekkelt (mildere, men ikke barnevennlig)
+åtsel
+pung
+lort
+fis
